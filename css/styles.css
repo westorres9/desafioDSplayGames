@@ -146,3 +146,77 @@ html, body {
     color: var(--white);
     margin-bottom: 40px;
 }
+
+.games-container {
+    background-color: var(--light-grey);
+    height: auto;
+}
+
+.games-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.games-content-container h2 {
+    padding: 40px 0 28px 0;
+    color: var(--light-green);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.games-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-game {
+    width: 300px;
+    height: 326px;
+    background-color: var(--white);
+    border-radius: 8px;
+    margin-bottom: 27px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card-img img {
+    height: 170px;
+    width: 300px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-game-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 158px;
+    padding: 15px 0 15px 0;
+}
+
+.game-title h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gray);
+}
+
+.game-title h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.game-title h6 strong {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--light-green);
+}
+
+.score {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--light-green);
+}
