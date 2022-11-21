@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --light-green: #38af90;
+    --light-pink: #dd7e92;
+    --light-grey: #f0f0f0;
+    --gray: #797979;
+    --dark-gray: #383838;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header-container {
+    height: 100px;
+    background-color: var(--light-green);
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container h1 {
+    font-size: 18px;
+    color: var(--white);
+    margin-left: 10px;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-items ul {
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.menu-items img {
+    width: 62px;
+    height: 62px;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.news-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-content-container h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--gray);
+    padding-top: 40px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.news-content {
+    padding: 10px;
+}
+
+.card-news {
+    background-color: var(--light-grey);
+    padding: 18px 15px 15px;
+    height: auto;
+    margin-bottom: 28px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card-news h3 {
+    color: var(--light-green);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.card-news h4 {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--gray);
+    border-bottom: 2px solid var(--light-green);
+    margin-bottom: 7px;
+}
+
+.date {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--light-green);
+    margin-bottom: 12px;
+}
+
+.card-news-content {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--gray);
+    padding-bottom: 12px;
+}
+
+.read-more {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--light-pink);
+}
+
+.btn {
+    width: 244px;
+    height: 67px;
+    background-color: var(--light-pink);
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 40px;
+}
